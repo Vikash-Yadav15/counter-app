@@ -1,0 +1,234 @@
+body {
+    background-color: #EDE8DC;
+    background-size: cover;
+    font-family: "Indie Flower"   ;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#month-select{
+    background-color: #EDE8DC;
+    font-family: "Indie Flower" ;
+    font-size: 20px;
+}
+
+#month{
+    position:absolute;
+    margin-right: 250px;
+    margin-top: -60px;
+    font-size:22px;
+}
+
+
+#year-select{
+    background-color: #EDE8DC;
+    font-family: "Indie Flower" ;
+    font-size: 20px;
+}
+
+#year{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -60px;
+    font-size:22px;
+}
+
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Josefin Sans";
+    font-size:120px;
+    color: #FFF4EA;
+    margin-top: 0px;
+    padding:40px;
+    width:100%;
+    background-color: #557C56;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+}
+
+.left-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-side {
+    
+    width: 50%;
+    text-align: left;
+    position: absolute;
+    margin-left: 600px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#count-el {
+    display: inline-block;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 80px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.butt {
+    background-color: #557C56;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    height: 70px;
+    width: 70px;
+    box-shadow: 0 2px 4px #375738;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+   }
+   
+   button.butt:hover {
+       background-color: #3a513b;
+      }
+   
+      button.butt:active {
+       box-shadow: 0 0 2px #344d35;
+       transform: translateY(2px);
+      }
+   
+   
+
+
+button.round {
+ background-color: #557C56;
+ color: white;
+ border: none;
+ padding: 5px;
+ font-size: 31px;
+ height: 70px;
+ width: 70px;
+ box-shadow: 0 2px 4px #375738;
+ border-radius: 50%;
+ cursor: pointer;
+ transition: all 0.2s ease;
+ -webkit-transition: all 0.2s ease;
+ -moz-transition: all 0.2s ease;
+ -ms-transition: all 0.2s ease;
+ -o-transition: all 0.2s ease;
+}
+
+button.round:hover {
+    background-color: #3a513b;
+   }
+
+   button.round:active {
+    box-shadow: 0 0 2px #344d35;
+    transform: translateY(2px);
+   }
+
+
+
+#save-btn {
+    background: darkgreen;
+}
+
+#reset-btn {
+    background: cyan;
+    color: black;
+}
+
+#clear-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    margin-left: 800px;
+}
+
+#clear-btn .icon {
+    width: 50px;  /* Adjust the size as needed */
+    height: 50px;
+}
+
+/* Optional: Add hover effect */
+#clear-btn:hover .icon {
+    opacity: 0.8;
+}
+#save-el {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 580px;
+    height: 250px;  /* Set a fixed height */
+    box-sizing: border-box;
+    overflow-y: auto;  /* Enable vertical scrolling */
+    word-wrap: break-word;
+}
+
+
+#total-el{
+    display:inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+p {
+    font-size: 1.1em;
+}
+
+/* Ensure proper centering when zoomed */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left-side, .right-side {
+    display: flex;
+    right:20px;
+    flex-direction: column;
+    align-items: center;
+}
+
